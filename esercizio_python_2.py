@@ -1,3 +1,5 @@
+#restituisce i nomi dei candidati in ordine di punteggio dato in input
+
 l = input('Come si chima il primo candidato? ')
 r = input('Come si chiama il secondo candidato? ')
 x = int(input('Punteggio Primo candidato:'))
