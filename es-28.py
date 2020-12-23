@@ -1,3 +1,5 @@
+#restituisce il punteggio più alto effettuato da uno tra tre partecipanti
+
 nome1 = input("chi è il primo studente?")
 punteggio1 = int(input("quanti punti ha fatto?"))
 
