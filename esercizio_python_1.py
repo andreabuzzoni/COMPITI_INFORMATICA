@@ -1,3 +1,5 @@
+#restituisce il candidato che ha ottenuto più voti tra quelli dati in input
+
 x = int(input('Quanti voti ha preso il 1° candidato? '))
 y = int(input('Quanti voti ha preso il 2° candidato? '))
 z = x+y
