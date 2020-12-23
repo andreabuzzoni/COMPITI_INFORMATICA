@@ -1,3 +1,5 @@
+#calcola l'area di un quadrato, un rettangolo, un triangolo e un cerchio con dati forniti in input
+
 L_quadrato = int(input("lato del quadrato:\n"))
 A_quadrato = L_quadrato ** 2
 print ("l'area è " , A_quadrato)
