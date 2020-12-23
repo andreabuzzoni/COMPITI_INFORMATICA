@@ -1,3 +1,5 @@
+#converte un numero binario in un decimale
+
 lunghezza = int (input ("dimmi il numero delle cifre binarie"))
 somma = 0
 for n in range (lunghezza):
