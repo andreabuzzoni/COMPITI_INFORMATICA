@@ -1,3 +1,5 @@
+#effettua delle divisioni
+
 binario = []
 numero = int(input("inserire un numero"))
 
