@@ -1,3 +1,4 @@
+#restituisce il numero delle lettere di una o più parole date in input
 N_parole = int(input('quante parole vuoi analizzare?'))
 A = []
 B = []
