@@ -1,0 +1,21 @@
+elenco_nazioni = {
+    "italia" : "roma" ,
+    "slovacchia" : "bratislava" ,
+    "olanda" : "amsterdam"
+}
+nazione = ""
+while nazione != "stop" :
+    nazione = input("inserisci una nazione ")
+    if nazione == "stop" :
+        print (elenco_nazioni)
+        break
+    if nazione in elenco_nazioni :
+        capitale = input("quale'è la capitale? ")
+        if capitale == elenco_nazioni[nazione]:
+            print ("giusto!")
+        else :
+            print ("sbagliato!")
+    else :
+        nazioni_non_in_lista = input("nazione non in lista, inserisci la capitale ")
+        elenco_nazioni[nazione] = nazioni_non_in_lista
+        print ("nazione aggiunta")
